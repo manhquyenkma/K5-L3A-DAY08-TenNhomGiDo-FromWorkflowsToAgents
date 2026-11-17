@@ -45,7 +45,7 @@ Quy tắc: tiền và phê duyệt luôn chấm bằng code. Judge chỉ dùng c
 
 ## 5. Cổng release
 - Lệnh CI: `python -m lab9.gate --pr reports/eval_<shape>.json --baseline reports/baseline_v1.json`
-- Baseline lấy từ nhánh `main` được bảo vệ, phủ đủ 14 items × 5 seeds; `eval_set_sha` của PR phải trùng khớp với baseline (`0967074090d9`).
+- Baseline lấy từ nhánh `main` được bảo vệ, phủ đủ 14 items × 5 seeds; `eval_set_sha` của PR phải trùng khớp với baseline (`9d1b64f2f085`).
 - **Gate exit 1 → BLOCK, không merge.** Người xử lý: Lead Engineer / Eval Owner. Ngoại lệ (waiver) chỉ được duyệt khi có sự phê duyệt đồng thuận của Product Owner và Eval Owner với lý do được ghi rõ trong mô tả PR.
 
 ## 6. Bằng chứng còn thiếu / rủi ro mở
